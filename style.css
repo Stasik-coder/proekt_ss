@@ -9,7 +9,6 @@ body {
     font-family: "IBM Plex Mono", monospace;
     font-weight: 100;
     font-style: normal;
-
 }
 
 header {
@@ -20,8 +19,6 @@ header {
     margin: auto;
     overflow: hidden;
     background-color: #000028;
-
-
 }
 
 .background {
@@ -107,6 +104,7 @@ section {
     color: #000028;
     font-size: 18px;
     font-weight: bold;
+    display: flex;
 }
 
 .wt {
@@ -129,6 +127,13 @@ section {
     display: flex;
     width: 984px;
     height: 508px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.dry {
+    display: flex;
+}
+.eda {
     margin-left: 20px;
     margin-right: 20px;
 }
