@@ -40,8 +40,9 @@ header {
     display: flex;
     position: relative;
     color: #FF0070;
-    top: 18px;
+    top: 13px;
     left: 943px;
+    font-size: 18px;
 }
 
 .rim {
@@ -119,6 +120,7 @@ section {
     font-size: 18px;
     width: 315px;
 }
+
 .section2>.why {
     margin-left: 20px;
 }
@@ -130,26 +132,86 @@ section {
     margin-left: 20px;
     margin-right: 20px;
 }
+
 .dry {
     display: flex;
 }
+
 .eda {
     margin-left: 20px;
     margin-right: 20px;
 }
+
 .glock3 {
     background-color: #FF0070;
     font-size: 18px;
     font-weight: 400;
 }
+
 .column2 {
     display: flex;
     height: 21515px;
 }
+
 .srt {
     margin-left: 20px;
     margin-right: 20px;
 }
+
 .section3 {
     max-height: 1115px;
+}
+
+.pict {
+    font-weight: 700;
+    font-size: 18px;
+    color: #000028;
+    background-color: #FF0070;
+}
+
+.section4 {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 984px;
+}
+
+.ygol {
+    position: absolute;
+    top: 738px;
+    left: 265px;
+    width: 25px;
+    height: 25px;
+    max-width: 25px;
+    border-width: 0 0 1px 1px;
+    border-style: solid;
+    border-color: #FF0070;
+}
+
+.ygol2 {
+    position: absolute;
+    top: 20px;
+    left: 1230px;
+    width: 25px;
+    height: 25px;
+    max-width: 25px;
+    border-width: 1px 1px 0 0;
+    border-style: solid;
+    border-color: #FF0070;
+}
+
+.kryg {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 28px;
+    left: 1237px;
+    background: #FF0070;
+    border-radius: 100%;
+    box-shadow: 0 0 4px 2px #ff0070;
+}
+
+.link {
+    filter: drop-shadow(2px 2px #ff0070);
+    color: #F1B2CE;
+    text-decoration: none;
 }
